@@ -22,3 +22,23 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# dotenv
+.env
+.env.*
+!.env.example
+
+# pnpm
+.pnpm-store
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Test coverage
+coverage
+*.lcov
